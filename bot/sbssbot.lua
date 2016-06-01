@@ -423,10 +423,10 @@ Un Filter a word
 /filterlist
 List of filtered words
 ____________
-Send /share to get robot number +989216089692
+Send /share to get robot number 
 ____________
 You can use [ ! , / or # ]or don’t use them
-More Details on @Sbss_Team
+More Details on @fucker_team
 ]]
   }
   serialize_to_file(config, './data/config.lua')
