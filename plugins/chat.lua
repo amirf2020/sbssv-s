@@ -1,6 +1,6 @@
 local function run(msg)
 if msg.text == "hi" then
-  return "Hello bb"
+  return "Hello sexy"
 end
 if msg.text == "Hi" then
   return "Hello honey"
@@ -12,7 +12,7 @@ if msg.text == "hello" then
   return "Hi honey"
 end
 if msg.text == "Salam" then
-  return "Salam aleykom"
+  return "Salam yaroo"
 end
 if msg.text == "salam" then
   return "va aleykol asalam"
@@ -23,13 +23,13 @@ end
 if msg.text == "Zac" then
   return "Nagaeedim"
 end
-if msg.text == "Sbss" then
+if msg.text == "nero" then
   return "Is the best"
 end
-if msg.text == "Sbss" then
+if msg.text == "nero" then
   return "Is the best"
 end
-if msg.text == "SBSS" then
+if msg.text == "nero" then
   return "Jnm?"
 end
 if msg.text == "bot" then
@@ -59,10 +59,10 @@ end
 if msg.text == "خدافظ" then
   return "Bye Bye"
 end
-if msg.text == "Mr Ahs" then
+if msg.text == "alfro" then
   return "چیکار داری بابامو؟"
 end
-if msg.text == "@Mr_Ah_s" then
+if msg.text == "amir" then
   return "چیکار داری بابامو؟"
 end
 end
@@ -79,13 +79,13 @@ return {
     "^[Bb]ye$",
     "^?$",
     "^[Ss]alam$",
-    "^@Mr_Ah_S$",
-    "^Mr Ahs$",
+    "^amir$",
+    "^alfro$",
     "^خدافظ$",
     "^بای$",
     "^[Ss]lm$",
-    "^SBSS$",
-    "^[Ss]bss$",
+    "^nero$",
+    "^[Nn]ero$",
     }, 
   run = run,
   pre_process = pre_process
